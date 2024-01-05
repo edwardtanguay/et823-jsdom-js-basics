@@ -1,4 +1,4 @@
-export const Ball = (backgroundColor = "brown", borderSize = 4) => {
+export const Ball = (backgroundColor = "brown", borderSize = 4, text = "") => {
 
 	const ballSize = 9;
 	const boxShadow = 20;
@@ -11,7 +11,7 @@ export const Ball = (backgroundColor = "brown", borderSize = 4) => {
 
 	return /*html*/ `
 <div class="ball flex items-center justify-center 
-" style=" color:${textColor}; border: ${borderSize}px solid white; box-shadow: ${boxShadow}px ${boxShadow}px ${boxShadow}px black; background-color: ${backgroundColor}; width: ${ballSize}rem; height: ${ballSize}rem">Test</div>
+" style=" color:${textColor}; border: ${borderSize}px solid white; box-shadow: ${boxShadow}px ${boxShadow}px ${boxShadow}px black; background-color: ${backgroundColor}; width: ${ballSize}rem; height: ${ballSize}rem">${text}</div>
 
 	`;
 };
