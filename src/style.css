@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 .ball {
-  background-color: red; 
   border-radius: 50%;
 }
