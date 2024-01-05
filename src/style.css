@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.ball {
+.ballMain {
   border-radius: 50%;
 }
