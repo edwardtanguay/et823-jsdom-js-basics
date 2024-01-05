@@ -15,6 +15,16 @@
     "text":"Roger"
   },
   {
+    "color":"olive",
+    "borderSize":4,
+    "text":"Sarah"
+  },
+  {
+    "color":"brown",
+    "borderSize":4,
+    "text":"Zoe"
+  },
+  {
     "color":"black",
     "borderSize":8,
     "text":"Patricia"
