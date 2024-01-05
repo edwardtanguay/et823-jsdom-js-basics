@@ -1,12 +1,16 @@
-export const Ball = (color = "brown", borderSize = 4) => {
+export const Ball = (backgroundColor = "brown", borderSize = 4) => {
 
 	const ballSize = 9;
 	const boxShadow = 20;
+	let textColor = 'black';
 
+	if (backgroundColor === 'black' || backgroundColor === '#111') {
+		textColor = 'white';
+	}
 
 	return /*html*/ `
-<div class="ball flex items-center justify-center text-[cyan]
-" style=" border: ${borderSize}px solid white; box-shadow: ${boxShadow}px ${boxShadow}px ${boxShadow}px black; background-color: ${color}; width: ${ballSize}rem; height: ${ballSize}rem">Test</div>
+<div class="ball flex items-center justify-center 
+" style=" color:${textColor}; border: ${borderSize}px solid white; box-shadow: ${boxShadow}px ${boxShadow}px ${boxShadow}px black; background-color: ${backgroundColor}; width: ${ballSize}rem; height: ${ballSize}rem">Test</div>
 
 	`;
 };

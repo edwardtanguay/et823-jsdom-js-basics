@@ -13,7 +13,7 @@ ${Ball('black')}
 ${Ball('purple')}
 ${Ball('yellow')}
 ${Ball()}
-${Ball()}
+${Ball('#111')}
 ${Ball()}
 ${Ball('green')}
 ${Ball('skyblue')}
