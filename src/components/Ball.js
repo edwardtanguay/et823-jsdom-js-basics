@@ -1,4 +1,4 @@
-export const Ball = (color = "red") => {
+export const Ball = (color = "brown") => {
 
 	const ballSize = 9;
 
