@@ -8,7 +8,7 @@ document.querySelector('#app').innerHTML = /*html*/ `
 <h2 class="text-3xl mb-4">Title: ${title}</h2>
 
 <div class="flex gap-4 flex-wrap">
-${Ball('blue')}
+${Ball('blue',8)}
 ${Ball('black')}
 ${Ball('purple')}
 ${Ball('yellow')}
@@ -18,7 +18,7 @@ ${Ball()}
 ${Ball('green')}
 ${Ball('skyblue')}
 ${Ball()}
-${Ball('orange')}
+${Ball('orange',1)}
 </div>
 
 `
