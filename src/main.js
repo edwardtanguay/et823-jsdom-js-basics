@@ -11,11 +11,11 @@ document.querySelector('#app').innerHTML = /*html*/ `
 ${Ball('blue')}
 ${Ball()}
 ${Ball()}
+${Ball('yellow')}
 ${Ball()}
 ${Ball()}
 ${Ball()}
-${Ball()}
-${Ball()}
+${Ball('green')}
 ${Ball()}
 ${Ball()}
 ${Ball()}
