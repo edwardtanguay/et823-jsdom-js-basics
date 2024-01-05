@@ -4,7 +4,8 @@ export const Ball = (backgroundColor = "brown", borderSize = 4) => {
 	const boxShadow = 20;
 	let textColor = 'black';
 
-	if (backgroundColor === 'black' || backgroundColor === '#111') {
+	// if (backgroundColor === 'black' || backgroundColor === '#111') {
+	if (['black', '#111', '#222'].includes(backgroundColor)) {
 		textColor = 'white';
 	}
 
