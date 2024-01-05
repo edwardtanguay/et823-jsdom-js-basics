@@ -1,5 +1,5 @@
 import { Ball } from './components/Ball';
-import { BallSection } from './components/BallSection';
+import { KidsNameTags } from './components/KidsNameTags';
 import './style.css';
 
 const title = "JavaScript Basics";
@@ -22,7 +22,7 @@ document.querySelector('#app').innerHTML = /*html*/ `
 	${Ball('orange', 1, "weekend")}
 </div>
 <section  class="border border-slate-600 mt-12 p-4 rounded">
-	${BallSection()}
+	${KidsNameTags()}
 </section>
 
 `
